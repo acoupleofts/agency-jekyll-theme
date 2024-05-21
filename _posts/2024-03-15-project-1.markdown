@@ -1,0 +1,15 @@
+---
+title: Neo4J Recommender System
+industry: Social Media
+layout: default
+modal-id: 1
+date: 2024-03-15
+img: abstract-a.webp
+thumbnail: abstract-a.webp
+client: Pre-launch Social Media Startup
+context: I was working for a pre-launch social media and concierge app as the sole data person. My responsibilities included designing the data model, managing the analytics infrastructure in AWS using Terraform, and setting up pipelines to ingest, clean, and store data.
+task: The main page of the app featured a feed of experiences (e.g., hotels, restaurants, events) that users could explore and book. It was crucial that the content matched each user’s browsing habits, necessitating a personalised feed. We aimed for a low-touch onboarding process without requiring users to specify their preferences.
+approach: I chose to use a graph network for the recommender system, leveraging its strength in representing relationships and interactions between entities. In our case, the nodes were users and experiences, and the edges represented interactions (view, book, save, review). I manually set weights for these interactions based on perceived user intent, viewing an experience counted as 1, saving as 5, and booking as 10.
+outcome: Although the app has not launched yet, the infrastructure is in place and documented in Terraform, with scripts stored in GitHub. I provided extensive documentation and walkthroughs for the development team to facilitate post-launch activation.
+tech: Neo4J, AWS (Neptune, Kinesis, Lambda)
+---

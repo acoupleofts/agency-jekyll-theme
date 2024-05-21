@@ -13,20 +13,24 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
+                            <h4>{{ post.industry }}</h4>
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
+                            <h5>context</h5>
+                            <p>{{ post.context }}</p>
+                            <h5>task</h5>
+                            <p>{{ post.task }}</p>
+                            <h5>approach</h5>
+                            <p>{{ post.approach }}</p>
+                            <h5>outcome</h5>
+                            <p>{{ post.outcome }}</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                <li>Tech:
+                                    <strong>{{ post.tech s}}</a>
                                     </strong>
                                 </li>
                             </ul>

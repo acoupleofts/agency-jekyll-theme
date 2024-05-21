@@ -1,0 +1,15 @@
+---
+title: Building a Data Warehouse and Setting up Data Pipelines in AWS
+industry: Tech Platform
+layout: default
+modal-id: 2
+date: 2023-03-15
+img: abstract-b.webp
+thumbnail: abstract-b.webp
+client: Content Platform Scale-up
+context: I joined a scale-up tech platform where major brands crowd-source video content for social media. Despite nearly a decade of operation, the company lacked a unified data view or a single source of truth.
+task: I was tasked with extracting data from various sources and loading it into a Redshift database. After landing the data, I needed to clean and transform it to support the Marketing, Finance, and Product teams.
+approach: Reporting directly to the head of operations, I utilised AWS Glue for its user-friendly interface, which provided transparency for non-coders. Despite its slower setup compared to pure Python scripts, it facilitated better understanding and oversight of the ETL processes.
+outcome: I successfully ingested, modelled, and built reports using data from multiple sources, including Mixpanel, backend databases, Airtable, Google Sheets, Jira, GCP APIs, TikTok, Meta, and HuggingFace. These reports enabled various teams to make informed decisions, enhancing overall operational efficiency.
+tech: AWS Glue
+---

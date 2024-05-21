@@ -1,0 +1,15 @@
+---
+title: Product Analysis for a Food Order and Delivery Platform
+industry: Tech Platform
+layout: default
+modal-id: 3
+date: 2021-03-15
+img: abstract-c.webp
+thumbnail: abstract-c.webp
+client: Food Delivery Platform
+context: I joined one of the UK’s largest tech companies, enabling users to find and order food from local restaurants. The company had expanded rapidly through multiple acquisitions.
+task: My task was twofold:to determine the overlap between users of the acquired companies and the main platform, and to analyse where users were dropping off during the migration process from the acquired platform (Hungry House) to the main platform (Just Eat).
+approach: While a team of BI analysts handled the first question, I focused on the user migration funnel. I mapped the ideal user journey and identified key data points in Google Analytics via BigQuery. Notably, I discovered that the banner prompting users to switch platforms was more effective on mobile than desktop, due to its prominence on the screen.
+outcome: Based on my recommendation, the banner size on desktop was increased, resulting in a significant rise in click-through rates and approximately ten thousand additional orders. This highlighted the importance of reevaluating seemingly obvious issues from a fresh perspective.
+tech: BigQuery, Google Analytics, Tableau
+---

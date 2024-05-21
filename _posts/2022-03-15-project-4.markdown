@@ -1,0 +1,15 @@
+---
+title: Migrating a Process from Jenkins to Snowflake for a Financial Services Company
+industry: Financial Services
+layout: default
+modal-id: 4
+date: 2022-03-15
+img: abstract-d.webp
+thumbnail: abstract-d.webp
+client: Pre-launch Social Media Startup
+context: I joined a 200-year-old asset management company to provide maternity cover and support for their data and insights team.
+task: My primary task was to migrate a complex process for preparing a dataset from Jenkins to Snowflake. The dataset detailed geographical revenue of companies, aiding portfolio managers in adjusting and rebalancing holdings based on macro trends.
+approach: I mapped out the 14 existing Jenkins jobs, identifying key steps to simplify the process. This involved collecting up-to-date portfolio data, revenue exposure data, mapping various identifiers (ISIN, SEDOL, Ticker Code) to the GeoRev dataset, and aggregating the data at the portfolio level. I leveraged Snowflake’s materialised views for daily data preparation, eliminating reliance on Jenkins.
+outcome: I completed the migration, testing, and documentation in four weeks—significantly faster than the three-month estimate given by the internal data engineering team. The new process also included a historical data view, enabling asset managers to track portfolio exposure changes over time.
+tech: Jenkins, Snowflake
+---
